@@ -22,7 +22,7 @@ logging.getLogger('telegram.ext').setLevel(logging.WARNING)
 logging.getLogger('telegram').setLevel(logging.ERROR)
 
 # Константи
-TOKEN = os.getenv('TOKEN')  # Отримуємо токен з середовища
+TOKEN = os.getenv('BOT_TOKEN')  # Отримуємо токен з середовища
 EXCEL_FILE = 'users_data.xlsx'
 
 # Створюємо Excel файл якщо він не існує
