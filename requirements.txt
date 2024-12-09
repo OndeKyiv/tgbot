@@ -2,3 +2,4 @@ python-telegram-bot==20.0
 pandas==1.5.3
 nest_asyncio==1.5.4
 openpyxl==3.0.10
+numpy==1.24.3
