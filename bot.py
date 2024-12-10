@@ -62,7 +62,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     
     await context.bot.send_photo(
         chat_id=update.effective_chat.id,
-        photo='http://hromada.media/wp-content/uploads/2024/12/hro.png',
+        photo='http://hromada.media/wp-content/uploads/2024/12/hro2.png',
         caption=(
             '⚡️ Новини та інсайди від влади Броварщини\n'
             '💡 Графіки подачі електропостачання\n'
